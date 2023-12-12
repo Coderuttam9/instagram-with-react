@@ -1,0 +1,109 @@
+.right-content {
+  width: 40%;
+  height: 100%;
+  margin-top: 20px;
+  .content {
+    border: 1px solid #ccc;
+    text-align: center;
+
+    .img {
+      margin-top: 45px;
+      margin-bottom: 20px;
+      background-image: url(../../../public/8n91YnfPq0s.png);
+      background-position: 0px -52px;
+      background-size: auto;
+      width: 175px;
+      height: 51px;
+      background-repeat: no-repeat;
+      display: inline-block;
+      cursor: pointer;
+    }
+    form {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 78%;
+      margin: auto;
+      gap: 5px;
+      input {
+        letter-spacing: 0.8px;
+        font-weight: normal;
+        padding: 11px 8px;
+        background-color: #fafafa;
+        font-size: 11px;
+        color: #ccc;
+        border: 1px solid #ccc;
+        outline: 1px solid rgba(112, 105, 105, 0);
+      }
+      button {
+        margin-top: 10px;
+        cursor: pointer;
+        background-color: #4cb5f9;
+        font-size: 14px;
+        font-weight: 600;
+        color: #ffff;
+        padding: 8px 0px;
+        border-radius: 6px;
+        border: none;
+      }
+    }
+    .main-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      .divider {
+        border-top: 0.1px solid #dbdbdb;
+        width: 32.5%;
+      }
+      .text {
+        font-size: 12px;
+        font-weight: 200;
+        color: #858383;
+      }
+    }
+    .login-fb {
+      padding: 30px 0px 20px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      gap: 3px;
+      img {
+        width: 20px;
+        cursor: pointer;
+      }
+      a {
+        color: #385185;
+        cursor: pointer;
+        font-weight: 500;
+      }
+    }
+    .forgot {
+      padding-bottom: 20px;
+      a {
+        cursor: pointer;
+        color: #385185;
+        font-size: 13px;
+        font-weight: normal;
+      }
+    }
+  }
+  img {
+    width: 100%;
+  }
+  .middle {
+    margin-top: 10px;
+    padding: 20px 0px;
+    p {
+      color: #333;
+      a {
+        color: #359ee4;
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+  }
+}
